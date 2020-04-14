@@ -33,13 +33,16 @@ body
     { 
         justify-content: flex-end;
     }
+
+
     .page-footer 
     { 
-        background-color: #222; 
-        color: #ccc;
-        padding: 60px 0 30px;
+        
+        background-color: white;
+        color: grey;
+        padding: 4px 0 1px;
     }
-     .footer-copyright 
+    .footer-copyright 
     { 
-        color: #666; padding: 40px 0;
+        color: grey; padding: 4px 0;
     }

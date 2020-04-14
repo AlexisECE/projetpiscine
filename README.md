@@ -7,3 +7,5 @@ J'ai mis les entêtes de chaque .html que nous devons faire (il en manque encore
 Vous pouvez prendre le code en cliquant sur un .html ou .css et en cliquant sur le petit crayon a côté de la poubelle.
 
 Apportez des modifs sur les fichiers et mettez sur le readme qu'on sache ou nous en sommes.
+
+Vous pouvez modifier les fichiers en cliquant sur le petit crayon et en collant le nouveau code par dessus l'ancien.

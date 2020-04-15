@@ -12,12 +12,12 @@ Vous pouvez modifier les fichiers en cliquant sur le petit crayon et en collant 
 
 A FAIRE :
 
-accessoirevip.html
-admin.html
-bpmusee.html
-ferraille.html
-help.html
-sell.html
+accessoirevip.html // 
+admin.html // 
+bpmusee.html //
+ferraille.html // 
+help.html //
+sell.html //
 
 ----------------------------------------------------------------------------------------------------------------------
 

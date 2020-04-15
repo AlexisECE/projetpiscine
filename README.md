@@ -10,6 +10,15 @@ Apportez des modifs sur les fichiers et mettez sur le readme qu'on sache ou nous
 
 Vous pouvez modifier les fichiers en cliquant sur le petit crayon et en collant le nouveau code par dessus l'ancien.
 
+A FAIRE :
+
+accessoirevip.html
+admin.html
+bpmusee.html
+ferraille.html
+help.html
+sell.html
+
 ----------------------------------------------------------------------------------------------------------------------
 
 — Jeudi 16 avril 2020 à 23h55 : Premier livrable de conception sera un fichier d'archive zip de 100 Mo maximum contenant les documents suivants :

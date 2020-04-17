@@ -1,0 +1,197 @@
+body
+ {
+    padding: 0px; margin: 0px; background: #f2f6e9;
+    }
+    /*--- navigation bar ---*/
+    .navbar 
+    { 
+       
+        margin-left:-170px;
+        width : 1450px;
+        background:#01796F;
+    }
+    .navbar-brand 
+    {
+        text-align:center;
+        margin-right:100px;
+        width: 100px;
+        height:65px;
+       
+    }
+    .nav-link 
+    {
+    color: white;
+    cursor: pointer; 
+    margin-left: 1em;
+    }
+    .nav-link
+    {
+    margin-right: 10px;
+    }
+    
+    .navbar-collapse 
+    { 
+        justify-content: flex-end;
+    }
+
+
+    .page-footer 
+    { 
+        
+        background-color: white;
+        color: grey;
+        padding: 4px 0 1px;
+    }
+    .footer-copyright 
+    { 
+        color: grey; padding: 4px 0;
+    }
+
+    /*Style des 4 questions/réponses*/
+    .help 
+    {
+        color: #01796F;
+        text-align:center;
+       
+    }
+   
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.5em
+    }
+    
+    body{
+      background: #D7423C;
+      box-sizing: border-box;
+    }
+    section{
+      padding: 10% 20%;
+    }
+    .animate{
+      transition: all .3s;
+    }
+    
+    input[name=question]{
+        display: none;
+    }
+    input[name=question] + label{
+        position: relative;
+        display: block;
+        padding: 20px 20px;
+        font-size: 1.2em;
+        cursor: pointer;
+        background: rgba(246, 246, 246, 1);
+        color: #5a9aa8;
+        z-index: 2;
+        box-shadow: 0 0 10px rgba(0,0,0,.1);
+        border-radius: 7px;
+    }
+    
+    .response{
+        position: relative;
+        background: #01796F;
+        color: #01796F;
+        padding: 10px 20px;
+        -webkit-transform: translate3d(0,-40px, 0) rotate(-.5deg);
+        z-index: 1;
+        box-shadow: 0 0 10px rgba(0,0,0,.1);
+        opacity: 0;
+        border-radius: 3px;
+    }
+    
+    input[name=question]:checked + label{
+        background: #F6F6F6;
+        color: #000000;
+    }
+    input[name=question]:checked + label + .response{
+        opacity: 1;
+        visibility: visible;
+        padding: 10px 20px;
+        -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
+        -webkit-filter: blur(0px);
+        margin-bottom: 20px;
+        color: white;
+    }
+    
+    .fixed-height{
+        height: 50px;
+        overflow: hidden;
+        opacity: 1 !important;
+    }
+    /*Fin du code pour les questions/réponses*/
+
+    /* Code formulaire de contact*/
+    h1{
+        text-align: center;
+      }
+      
+      .form-style {
+          margin:10px auto;
+          width: 400px;
+          padding: 20px 12px 10px 20px;
+      }
+      
+      .form-style td {
+          padding: 0;
+          display: block;
+          list-style: none;
+          margin: 10px 0 0 0;
+      }
+      
+      .form-style label{
+          margin:0 0 3px 0;
+          padding:0px;
+          display:block;
+          font-weight: bold;
+      }
+      
+      .form-style .required{
+          color:red;
+      }
+      .form-style input[type=submit], .form-style input[type=reset]{
+          background: #01796F;
+          padding: 8px 15px 8px 15px;
+          border: none;
+          color: #fff;
+      }
+      .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+          background: #01796F;
+          box-shadow:none;
+          -moz-box-shadow:none;
+          -webkit-box-shadow:none;
+      }
+      .form-style .field-textarea{
+          height: 100px;
+      }
+      .form-style input[type=text], 
+      .form-style input[type=email],
+      textarea{
+          box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          border:1px solid #BEBEBE;
+          padding: 7px;
+          margin:0px;
+          -webkit-transition: all 0.30s ease-in-out;
+          -moz-transition: all 0.30s ease-in-out;
+          -ms-transition: all 0.30s ease-in-out;
+          -o-transition: all 0.30s ease-in-out;
+          outline: none;	
+      }
+      .form-style .long{
+          width: 100%;
+      }
+      .form-style input[type=text]:focus, 
+      .form-style input[type=email]:focus,
+      .form-style textarea:focus{
+          -moz-box-shadow: 0 0 8px #88D5E9;
+          -webkit-box-shadow: 0 0 8px #88D5E9;
+          box-shadow: 0 0 8px #88D5E9;
+          border: 1px solid #88D5E9;
+      }
+      
+      }
+      /*Fin du formulaire de contact*/

@@ -1,0 +1,48 @@
+body
+ {
+    padding: 0px; margin: 0px; background: #f2f6e9;
+    }
+    /*--- navigation bar ---*/
+    .navbar 
+    { 
+       
+        margin-left:-170px;
+        width : 1450px;
+        background:#01796F;
+    }
+    .navbar-brand 
+    {
+        text-align:center;
+        margin-right:100px;
+        width: 100px;
+        height:65px;
+       
+    }
+    .nav-link 
+    {
+    color: white;
+    cursor: pointer; 
+    margin-left: 1em;
+    }
+    .nav-link
+    {
+    margin-right: 5px;
+    }
+    
+    .navbar-collapse 
+    { 
+        justify-content: flex-end;
+    }
+
+
+    .page-footer 
+    { 
+        
+        background-color: white;
+        color: grey;
+        padding: 4px 0 1px;
+    }
+    .footer-copyright 
+    { 
+        color: grey; padding: 4px 0;
+    }

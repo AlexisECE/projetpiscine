@@ -1,10 +1,10 @@
 # projetpiscine
 
-La page de login/inscription a été faites, il manque a mettre la connexion/inscription via FB/google.
+La page de login/inscription a été faites. 
 
-J'ai mis les entêtes de chaque .html que nous devons faire (il en manque encore mais on fera au fur et a mesure).
+J'ai mis les entêtes de chaque .php que nous devons faire (il en manque encore mais on fera au fur et a mesure).
 
-Vous pouvez prendre le code en cliquant sur un .html ou .css et en cliquant sur le petit crayon a côté de la poubelle.
+Vous pouvez prendre le code en cliquant sur un .php ou .css et en cliquant sur le petit crayon a côté de la poubelle.
 
 Apportez des modifs sur les fichiers et mettez sur le readme qu'on sache ou nous en sommes.
 
@@ -18,6 +18,10 @@ bpmusee.html //
 ferraille.html // 
 help.html //
 sell.html //
+
+
+19/04 : Je fais le tri de tous les fichiers que l'on a plus besoin pour ne garder que ceux qui servent. 
+
 
 ----------------------------------------------------------------------------------------------------------------------
 

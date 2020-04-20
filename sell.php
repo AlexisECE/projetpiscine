@@ -50,7 +50,7 @@
             <div class="dropdown">
             <a1 class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mon compte</a1>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="ferraille.php">blabla</a>
+                  <a class="dropdown-item" href="panier.php">Mon panier</a>
                   <a class="dropdown-item" href="infoperso.php">Mes informations personnelles</a>
                   <a class="dropdown-item" href="logout.php">Déconnexion</a>
                 </div>

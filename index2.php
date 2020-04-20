@@ -54,8 +54,8 @@
                   <a class="dropdown-item" href="logout.php">Déconnexion</a>
                 </div>
 </div>
+            <li class="nav-item"><a class="nav-link" href="encherir.php">Enchère</a></li>
             <li class="nav-item"><a class="nav-link" href="admin.php">Admin</a></li>
-            <li class="nav-item"><a class="nav-link" href="help.html">Aide</a></li>
             </ul> 
           </div>
           </div> 
@@ -97,8 +97,7 @@
           </div>
           <!-- /.container -->
           </nav> 
-          
-          
+              
            <script>
               $('a1').mouseover(function() {
                 $(this).dropdown('toggle')

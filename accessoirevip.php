@@ -13,7 +13,7 @@
     <title>Accessoire VIP</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <link rel="stylesheet" type="text/css" href="categorie.css">
+        <link rel="stylesheet" type="text/css" href="style2.css">
         <link rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -48,7 +48,14 @@
           <div class="collapse navbar-collapse" id="main-navigation">
             <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="sell.php">Vendre</a></li>
-            <li class="nav-item"><a class="nav-link" href="login.php">Votre compte</a></li> 
+            <div class="dropdown">
+            <a1 class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mon compte</a1>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="panier.php">Mon panier</a>
+                  <a class="dropdown-item" href="annonce.php">Mes annonces</a>
+                  <a class="dropdown-item" href="logout.php">Déconnexion</a>
+                </div>
+</div>
             <li class="nav-item"><a class="nav-link" href="admin.php">Admin</a></li>
             <li class="nav-item"><a class="nav-link" href="help.html">Aide</a></li>
             </ul> </div>
@@ -180,7 +187,6 @@
                 $(this).dropdown('toggle')
               })
             </script>
-
 
     </body>
 </html>

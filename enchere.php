@@ -5,13 +5,13 @@
 	$prix = isset($_POST["prix"])? $_POST["prix"] : "";
  
 	//identifier votre base de donnees
-	$database = "ecepoire";
+	$database = "poire";
 
 	//connectez-vous dans votre BDD
 	//votre serveur = localhost
 	//votre login = root
 	//votre mdp = <rien>
-	$db_handle = mysqli_connect('localhost','root','');
+	$db_handle = mysqli_connect('localhost','root','root');
 	$db_found = mysqli_select_db($db_handle, $database);
 
 

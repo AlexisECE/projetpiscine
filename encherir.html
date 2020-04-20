@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Enchères</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <form enctype="multipart/form-data" action="enchere.php" method="post">
+        <table>
+            <tr>
+                <td>Sur quel objet voulez-vous enchérir:</td>
+                <td><input type="text" name="item"></td>
+            </tr>
+            <tr>
+                <td>A quel nom ?</td>
+                <td><input type="text" name="nom"></td>
+            </tr>
+            <tr>
+                <td>A quel prix ?</td>
+                <td><input type="text" name="prix"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+					<input type="submit" name="button1" value="Enchérir">
+					<!--Le bouton admin envoie à une autre page html-->
+					<input type="submit" name="button2" value="Admin">
+				</td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

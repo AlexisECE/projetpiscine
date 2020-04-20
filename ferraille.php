@@ -181,6 +181,5 @@
                 $(this).dropdown('toggle')
               })
             </script>
-
     </body>
 </html>

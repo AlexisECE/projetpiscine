@@ -1,27 +1,6 @@
 # projetpiscine
 
-La page de login/inscription a été faites. 
-
-J'ai mis les entêtes de chaque .php que nous devons faire (il en manque encore mais on fera au fur et a mesure).
-
-Vous pouvez prendre le code en cliquant sur un .php ou .css et en cliquant sur le petit crayon a côté de la poubelle.
-
-Apportez des modifs sur les fichiers et mettez sur le readme qu'on sache ou nous en sommes.
-
-Vous pouvez modifier les fichiers en cliquant sur le petit crayon et en collant le nouveau code par dessus l'ancien.
-
-A FAIRE :
-
-accessoirevip.html // 
-admin.html // 
-bpmusee.html //
-ferraille.html // 
-help.html //
-sell.html //
-
-
 19/04 : Je fais le tri de tous les fichiers que l'on a plus besoin pour ne garder que ceux qui servent. 
-
 
 ----------------------------------------------------------------------------------------------------------------------
 

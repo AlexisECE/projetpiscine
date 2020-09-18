@@ -1,10 +1,19 @@
 <!DOCTYPE html> 
+<?php
+  // Initialiser la session
+  session_start();
+  // Vérifiez si l'utilisateur est connecté, sinon redirigez-le vers la page de connexion
+  if(!isset($_SESSION["username"])){
+    header("Location: login.php");
+    exit(); 
+  }
+?>
 <html>
     <head>
-        <title>Index</title>
+    <title>Bon pour le Musée</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <link rel="stylesheet" type="text/css" href="categorie.css">
+        <link rel="stylesheet" type="text/css" href="style2.css">
         <link rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -13,7 +22,7 @@
     <body> 
         <div class="container">
             <nav class="navbar navbar-expand">
-              <a class="navbar-brand" href="index.html"><img src="poire2.png" alt="logo" width="120px" height="60px"/></a>
+              <a class="navbar-brand" href="index2.php"><img src="poire2.png" alt="logo" width="120px" height="60px"/></a>
               <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
                 <span class="navbar-toggler-icon"></span>
                </button>
@@ -22,74 +31,43 @@
               <div class="dropdown">
                 <a1 class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Catégories</a1>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="ferraille.html">Ferraille ou Trésor</a>
-                  <a class="dropdown-item" href="bpmusee.html">Bon pour le Musée</a>
-                  <a class="dropdown-item" href="accessoirevip.html">Accessoire VIP</a>
+                  <a class="dropdown-item" href="ferraille.php">Ferraille ou Trésor</a>
+                  <a class="dropdown-item" href="bpmusee.php">Bon pour le Musée</a>
+                  <a class="dropdown-item" href="accessoirevip.php">Accessoire VIP</a>
                 </div>
               </div>
 
               
-            <form class="form-inline">
-              
+              <form class="form-inline" action="recherche.php">
                 <input class="form-control " type="search" placeholder="Rechercher un item" aria-label="Search" size="63px">
-                <button class="btn btn-outline-light" type="submit">Rechercher</button>
+                <button class="btn btn-outline-light" name="button1" type="submit">Rechercher</button>
               </form>
             
 
              
           <div class="collapse navbar-collapse" id="main-navigation">
             <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="sell.html">Vendre</a></li>
-            <li class="nav-item"><a class="nav-link" href="login.html">Votre compte</a></li> 
-            <li class="nav-item"><a class="nav-link" href="admin.html">Admin</a></li>
+            <li class="nav-item"><a class="nav-link" href="sell.php">Vendre</a></li>
+            <div class="dropdown">
+            <a1 class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mon compte</a1>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="panier.php">Mon panier</a>
+                  <a class="dropdown-item" href="annonce.php">Mes annonces</a>
+                  <a class="dropdown-item" href="logout.php">Déconnexion</a>
+                </div>
+</div>
+             
+            <li class="nav-item"><a class="nav-link" href="admin.php">Admin</a></li>
             <li class="nav-item"><a class="nav-link" href="help.html">Aide</a></li>
             </ul> </div>
           </div>
-            
+            <br>
           <div class="container">
+
+          <h4>CATEGORIE : BON POUR LE MUSEE</h4>
+          <br>
           <div class="row">
 
-            <div class="col-lg-3 ">
-      
-              <h1 class="my-4">Shop Name</h1>
-              <div class="list-group">
-                <a href="#" class="list-group-item">Category 1</a>
-                <a href="#" class="list-group-item">Category 2</a>
-                <a href="#" class="list-group-item">Category 3</a>
-              </div>
-      
-            </div>
-            <!-- /.col-lg-3 -->
-      
-            <div class="col-lg-9">
-      
-              <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                    <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-      
               <div class="row">
       
                 <div class="col-lg-4 col-md-6 mb-4">

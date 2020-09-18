@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trouveur de livres</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h2>Le Trouveur de livres</h2>
+    <form enctype="multipart/form-data" action="livres.php" method="post">
+        <table>
+            <tr>
+                <td>Titre:</td>
+                <td><input type="text" name="titre"></td>
+            </tr>
+            <tr>
+                <td>Auteur:</td>
+                <td><input type="text" name="auteur"></td>
+            </tr>
+            <tr>
+                <td>Année:</td>
+                <td><input type="text" name="annee"></td>
+            </tr>
+            <tr>
+                <td>Editeur:</td>
+                <td><input type="text" name="editeur"></td>
+            </tr>
+			<tr>
+				<td>Couverture:</td>
+				<td><input type="file" name="image"></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+            <tr>
+                <td colspan="2" align="center">
+                 <input type="submit" name="button1" value="Rechercher">
+                 <input type="submit" name="button2" value="Ajouter">
+                 <input type="submit" name="button3" value="Supprimer">
+             </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

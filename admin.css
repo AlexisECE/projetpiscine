@@ -26,7 +26,7 @@ body
     }
     .nav-link
     {
-    margin-right: 10px;
+    margin-right: 5px;
     }
     
     .navbar-collapse 
@@ -44,5 +44,31 @@ body
     }
     .footer-copyright 
     { 
-        color: grey; padding: 4px 0;
+        position: absolute; bottom: 0; left: 0; right: 0;
+        color: grey; 
     }
+    table
+    {
+
+    margin: auto;
+    }
+    td
+    {
+    text-align :center;
+    }
+    h2
+    {
+        text-align:center;
+    }
+   
+    .nom {
+        height: 30px;
+        width: 350px;
+    }
+    .email {
+        height: 30px;
+        width: 350px;
+    }
+
+
+

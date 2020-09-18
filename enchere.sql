@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  jeu. 16 avr. 2020 à 10:13
+-- Généré le :  lun. 20 avr. 2020 à 21:00
 -- Version du serveur :  10.4.10-MariaDB
 -- Version de PHP :  7.3.12
 
@@ -19,34 +19,33 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données :  `poire`
+-- Base de données :  `ecepoire`
 --
 
 -- --------------------------------------------------------
 
 --
--- Structure de la table `item`
+-- Structure de la table `enchere`
 --
 
-DROP TABLE IF EXISTS `item`;
-CREATE TABLE IF NOT EXISTS `item` (
-  `IdItem` int(11) NOT NULL AUTO_INCREMENT,
+DROP TABLE IF EXISTS `enchere`;
+CREATE TABLE IF NOT EXISTS `enchere` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `Item` varchar(255) NOT NULL,
   `Nom` varchar(255) NOT NULL,
-  `Photo` varchar(255) NOT NULL,
-  `Description` varchar(255) NOT NULL,
-  `Video` varchar(255) NOT NULL,
-  `Prix` int(16) NOT NULL,
-  `Categorie` varchar(255) NOT NULL,
-  PRIMARY KEY (`IdItem`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+  `Prixench` int(11) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
 
 --
--- Déchargement des données de la table `item`
+-- Déchargement des données de la table `enchere`
 --
 
-INSERT INTO `item` (`IdItem`, `Nom`, `Photo`, `Description`, `Video`, `Prix`, `Categorie`) VALUES
-(1, 'tableau', 'photo', 'Tableau du 17e siecle', 'video', 300, 'Bon pour le musee'),
-(2, 'Casque logitech', 'photo casque', 'Casque de grande qualite', 'video casque', 200, 'Accessoire VIP');
+INSERT INTO `enchere` (`ID`, `Item`, `Nom`, `Prixench`) VALUES
+(16, 'PQ', 'PA', 560),
+(3, 'table', 'PA', 250),
+(4, 's', 'a', 12),
+(17, 'PQ', 'Valdrin le pauvre', 8);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
